@@ -109,7 +109,15 @@ go run main.go cli --id 123
 
 ## Web Server Endpoints
 
-The web server is set up using the `MakeProductHandlers` function in the `product.go` file. This function registers several HTTP endpoints related to product management.
+The web server is set up using Cobra, Mux and Negroni. This function registers several HTTP endpoints related to product management.
+
+To initialize the web server, run the following command:
+
+```bash
+go run main.go http
+```
+
+The application is configured to run on port 9000.
 
 Here's a list of the available endpoints:
 
