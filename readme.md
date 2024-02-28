@@ -113,6 +113,7 @@ Example:
     "name": "Testing",
     "price": 25.99
 }
+```
 
 ## Help
 
