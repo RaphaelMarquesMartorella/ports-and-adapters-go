@@ -20,10 +20,38 @@ The project also adheres to the principles of TDD, where tests are written befor
 
 * Go
 * Docker
+* Sqlite3
 * Cobra
 * Mux
 * Negroni
 * Testify (for testing)
+
+## Database Setup
+
+This project uses SQLite3 as its database. Here's how to set it up:
+
+1. Open a new container bash and create a new SQLite database file:
+
+```bash
+touch sqlite.db
+```
+
+Open the SQLite interactive shell:
+
+```bash
+sqlite3 sqlite.db
+```
+
+Once inside the SQLite shell, create the products table:
+
+```bash
+CREATE TABLE products(
+    id STRING,
+    name STRING,
+    price FLOAT,
+    status STRING
+);
+```
 
 ### Compile program
 
@@ -136,7 +164,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 This project was initially created as part of a class from [Plataforma Full Cycle](https://github.com/codeedu/fc2-arquitetura-hexagonal).
 
 Other inspirations and code snippets:
-* [FullCycle-BaseCode](https://github.com/codeedu/fc2-arquitetura-hexagonal)
+* [FullCycle-BaseCode](https://github.com/codeedu)
 * [Awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [dbader](https://github.com/dbader/readme-template)
