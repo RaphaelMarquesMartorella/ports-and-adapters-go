@@ -155,10 +155,12 @@ Example:
 
 If you encounter any problems, please open an issue in the GitHub repository.
 
-## Authors
+## Contact
 
 Raphael Martorella 
-raphael.martorella@homail.com
+raphael.martorella@homail.com </br>
+Linkedin
+https://www.linkedin.com/in/raphael-marques-martorella/
 
 
 This project was initially created as part of a class from Plataforma Full Cycle.
